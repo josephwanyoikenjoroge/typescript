@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="p-[0] m-[0] box-border bg-green-200">
+    <div id='mainContainer' class="flex flex-col items-center justify-center h-screen ">
+        <div id="buttonContainer" class="flex justify-center items-center gap-[1rem] max-[600]: flex-col">
+            <button id="show" class="bg-blue-300 rounded-[1rem] p-[1rem] m-[1rem]">Show Cart</button>
+            <button id="add4" class="bg-indigo-300 rounded-[1rem] p-[1rem] m-[1rem]">Add 4</button>
+            <button id="add8" class="bg-orange-300 rounded-[1rem] p-[1rem] m-[1rem]">Add 8</button>
+            <button id="add12" class="bg-purple-300 rounded-[1rem] p-[1rem] m-[1rem]">Add 12</button>
+            <button id="reset" class="bg-red-300 rounded-[1rem] p-[1rem] m-[1rem]">Reset</button>
+        </div>
+        <div>
+            <p id="display">Cart Quantity</p>
+        </div>
+    </div>
+
+    <script src="cartQuantitywithts.js"></script>
+</body> 
+</html>
