@@ -1,4 +1,4 @@
-let cart:  number = 0;
+let cart: number = 0;
 let showButton = document.getElementById('show') as HTMLButtonElement;
 let display = document.getElementById('display') as HTMLElement;
 
